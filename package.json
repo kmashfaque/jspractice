@@ -1,0 +1,14 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "description": "js",
+  "main": "new.js",
+  "scripts": {
+    "test": "node new"
+  },
+  "keywords": [
+    "new"
+  ],
+  "author": "abir",
+  "license": "ISC"
+}

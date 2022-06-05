@@ -64,3 +64,95 @@
 // }
 // console.log(largestNumber);
 // console.log(secondLargestNumber);
+
+// array of array
+
+// const array = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+
+// for (let i = 0; i < array.length; i++) {
+//   for (let j = 0; j < array[i].length; j++) {
+//     console.log(`Element ${i} ${j} is ` + array[i][j]);
+//   }
+// }
+
+// array of functions
+
+// const sum = (a, b) => a + b;
+// const sub = (a, b) => a - b;
+// const mul = (a, b) => a * b;
+// const div = (a, b) => a / b;
+// const mod = (a, b) => a % b;
+
+// const funcs = [sum, sub, mul, div, mod];
+
+// const a = 10;
+// const b = 20;
+
+// for (let i = 0; i < funcs.length; i++) {
+//   const result = funcs[i](a, b);
+//   console.log(`[${funcs[i].name}] --- Result=${result}`);
+// }
+
+// const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// const arr2 = [11, 12, 13, 14, 15, 16, 17, 18, 19, 0];
+// const result = [];
+// for (i = 0; i < arr1.length; i++) {
+//   result.push(arr1[i] + arr2[i]);
+// }
+// console.log(result);
+
+// to get the full result in single array
+
+// const newArr1 = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+
+// const newArr2 = [
+//   [10, 11, 12],
+//   [13, 14, 15],
+//   [16, 17, 18],
+// ];
+// const result = [[], [], []];
+
+// for (let i = 0; i < newArr1.length; i++) {
+//   for (let j = 0; j < newArr1[i].length; j++) {
+//     result.push(newArr1[i][j] + newArr2[i][j]);
+//   }
+// }
+// console.log(result);
+
+// const matrixA = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+
+// const matrixB = [
+//   [10, 11, 12],
+//   [13, 14, 15],
+//   [16, 17, 18],
+// ];
+
+// const matrixSum = (matrixA, matrixB) => {
+//   const result = [];
+
+//   for (let i = 0; i < matrixA.length; i++) {
+//     row = [];
+//     for (let j = 0; j < matrixA[i].length; j++) {
+//       row.push(matrixA[i][j] + matrixB[i][j]);
+//     }
+
+//     result.push(row);
+//   }
+//   return result;
+// };
+
+// const matrixC = matrixSum(matrixA, matrixB);
+// console.log(matrixC);
